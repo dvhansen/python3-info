@@ -1,0 +1,22 @@
+diff -Naur Python-3.4.3.orig/Doc/Makefile Python-3.4.3/Doc/Makefile
+--- Python-3.4.3.orig/Doc/Makefile	2015-02-25 12:27:43.000000000 +0100
++++ Python-3.4.3/Doc/Makefile	2015-09-02 19:03:26.110709490 +0200
+@@ -26,6 +26,7 @@
+ 	@echo "  latex      to make LaTeX files, you can set PAPER=a4 or PAPER=letter"
+ 	@echo "  text       to make plain text files"
+ 	@echo "  epub       to make EPUB files"
++	@echo "  texinfo    to make texinfo files"
+ 	@echo "  changes    to make an overview over all changed/added/deprecated items"
+ 	@echo "  linkcheck  to check all external links for integrity"
+ 	@echo "  coverage   to check documentation coverage for library and C API"
+@@ -63,6 +64,10 @@
+ epub: build
+ 	@echo "Build finished; the epub files are in build/epub."
+ 
++texinfo: BUILDER = texinfo
++texinfo: build
++	@echo "Build finished; the texinfo files are in build/texinfo."
++
+ changes: BUILDER = changes
+ changes: build
+ 	@echo "The overview file is in build/changes."
