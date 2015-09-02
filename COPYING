@@ -1,0 +1,9 @@
+The Python manual is licensed under PSF license [1].
+
+The other files are trivial and I doubt that copyright applies here.
+In case I'm wrong you can use them under the terms of the WTFPL (see
+the file WTFPL).
+
+Footnotes: 
+[1]  https://docs.python.org/3/license.html
+
