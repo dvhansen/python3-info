@@ -10,4 +10,4 @@
 
 (provide 'python3-info)
 
-;;; python-info.el ends here
+;;; python3-info.el ends here
