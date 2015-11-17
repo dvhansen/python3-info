@@ -1,5 +1,4 @@
-;; python3-info.el --- Python 3 info manual for Emacs
-
+;;; python3-info.el --- Python 3 info manual for Emacs
 
 ;;; Commentary:
 ;; This file is deliberately empty, since this package just contains a
