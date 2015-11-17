@@ -3,6 +3,6 @@
 Based on
 [Wilfred / python-info](https://github.com/Wilfred/python-info).
 
-To install, you need to be using [MELPA](http://melpa.milkbox.net/)
+To install, you need to be using [MELPA](https://melpa.org/)
 then simply `M-x package-install python3-info`.
 
